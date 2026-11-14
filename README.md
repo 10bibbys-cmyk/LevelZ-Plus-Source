@@ -78,7 +78,7 @@ If you upgrade from 2.1.1 or 2.1.2, keep your existing config. Previously config
 
 ## Support
 
-Source code and issue tracker: https://github.com/10bibbys-cmyk/LevelZ-Plus-SourcePlus-Source
+Source code and issue tracker: https://github.com/10bibbys-cmyk/LevelZ-Plus-Source
 
 Mod ID: `levelz_plus` · Licence: All Rights Reserved
 
@@ -86,4 +86,4 @@ Mod ID: `levelz_plus` · Licence: All Rights Reserved
 
 This maintenance release reduces unnecessary server-side attribute updates. Every five seconds, the normal safety synchronisation checks each known modifier's UUID, amount and operation. Unchanged modifiers remain in place; changed or missing modifiers are updated and obsolete modifiers removed. Skill scaling and XP calculations are unchanged. The opt-in JobsAddon, Felled and Tide integrations work as before.
 
-**Public source:** https://github.com/10bibbys-cmyk/LevelZ-Plus-SourcePlus-Source. Original addon material is source-available, All Rights Reserved, subject to the explicit private-inspection permissions in LICENSE. Third-party rights remain with the respective mod authors.
+**Public source:** https://github.com/10bibbys-cmyk/LevelZ-Plus-Source. Original addon material is source-available, All Rights Reserved, subject to the explicit private-inspection permissions in LICENSE. Third-party rights remain with the respective mod authors.
