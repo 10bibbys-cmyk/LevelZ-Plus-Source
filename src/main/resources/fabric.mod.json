@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "levelz_plus",
+  "version": "2.1.3.1+mc1.20.1",
+  "name": "LevelZ+",
+  "description": "A modular LevelZ expansion and compatibility suite with configurable stat integrations, independent multiplayer progression XP, and optional adapters for crafting, combat, harvesting, spellcasting and ship construction.",
+  "authors": [
+    "10bibbys-cmyk"
+  ],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pathoftheascended.levelzplus.LevelZPlus"
+    ],
+    "client": [
+      "com.pathoftheascended.levelzplus.LevelZPlusClient"
+    ]
+  },
+  "mixins": [
+    "levelz_plus.mixins.json",
+    "levelz_plus_toms_storage.mixins.json",
+    "levelz_plus_combat.mixins.json",
+    "levelz_plus_smallships.mixins.json",
+    "levelz_plus_jobsaddon.mixins.json",
+    "levelz_plus_felled.mixins.json"
+  ],
+  "provides": [
+    "levelz_toms_storage_compat",
+    "levelz_bettercombat_compat"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "java": ">=17",
+    "minecraft": "~1.20.1",
+    "levelz": "1.4.13"
+  },
+  "suggests": {
+    "toms_storage": "*",
+    "bettercombat": "*",
+    "spell_engine": "*",
+    "smallships": "*",
+    "zenith_attributes": "*",
+    "staminaattributes": "*",
+    "rpgmana": "*",
+    "bettercombatextension": "*",
+    "combatroll": "*",
+    "passiveregen": "*",
+    "diet": "*",
+    "bountiful": "*",
+    "numismatic-overhaul": "*",
+    "xp_storage": "*",
+    "actuallyharvest": "*",
+    "jobsaddon": "*",
+    "farmersdelight": "*",
+    "felled": "*",
+    "zarith": "*"
+  },
+  "contact": {
+    "homepage": "https://github.com/10bibbys-cmyk/LevelZ-Plus-Source",
+    "sources": "https://github.com/10bibbys-cmyk/LevelZ-Plus-Source",
+    "issues": "https://github.com/10bibbys-cmyk/LevelZ-Plus-Source/issues"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.pathoftheascended.levelzplus.compat.felled.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "com.pathoftheascended.levelzplus.compat.felled.FelledMixinPlugin",
+  "mixins": ["FelledCellHarvestMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

@@ -1,0 +1,29 @@
+LevelZ+ — Source-Available Notice (All Rights Reserved)
+Copyright © 2026 Path of the Ascended. All Rights Reserved.
+
+The independently owned original LevelZ+ source code and associated material
+in this repository are provided publicly for transparency, compatibility review
+and private verification. This notice is not a conventional open-source licence.
+
+For material that is independently owned by the LevelZ+ copyright holder,
+permission is granted to:
+- View, clone and download the repository for private, non-commercial inspection.
+- Compile the source locally for private, non-commercial verification.
+- Retain copies privately for compatibility testing.
+
+Unless a separate written permission is obtained from the copyright holder,
+permission is not granted to:
+- Republish, rehost, sell, sublicense or redistribute the original code.
+- Distribute modified versions or compiled builds of the original code.
+- Incorporate original LevelZ+ source into other publicly distributed projects.
+
+This notice does not restrict rights independently granted by applicable law,
+GitHub's Terms of Service (including their applicable forking provisions), or
+valid third-party licences. It cannot relicense or limit any third-party code,
+artwork or other assets present or referenced.
+
+LevelZ, Minecraft, Fabric and all optional integrated mods are separate works
+whose authors retain their respective rights. Their external dependencies are
+not bundled as binaries or upstream source within this repository.
+
+For permissions beyond private verification, contact the project maintainer.

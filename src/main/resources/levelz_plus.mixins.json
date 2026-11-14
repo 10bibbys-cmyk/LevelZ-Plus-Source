@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pathoftheascended.levelzplus.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "com.pathoftheascended.levelzplus.LevelZPlusMixinPlugin",
+  "mixins": [
+    "PlayerStatsManagerMixin",
+    "ServerPlayerTickMixin",
+    "BlockLootMixin",
+    "EnchantmentHelperMixin",
+    "PlayerXpMixin",
+    "ActuallyHarvestXpMixin",
+    "CombatLifeMixin",
+    "CombatDeathMixin",
+    "CombatContributionMixin",
+    "DragonDamageMixin",
+    "PlayerFoodContextMixin",
+    "HungerManagerMixin",
+    "PassiveRegenSpeedMixin",
+    "DietGainMixin",
+    "BountifulRewardMixin",
+    "XpStorageBookMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

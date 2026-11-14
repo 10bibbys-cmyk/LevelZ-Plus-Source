@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pathoftheascended.levelzplus.compat.smallships.mixin",
+  "plugin": "com.pathoftheascended.levelzplus.compat.CompatModuleMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DockyardBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
